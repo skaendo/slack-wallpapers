@@ -1,0 +1,29 @@
+2018-04-19
+----------
+* Restructure:
+The archive now only includes the actual wallpapers for "installation".
+
+The removed images are available as a separate archive.
+
+I have also decided to break the archive up into separate "packs"
+because the archive was getting huge, over 300MB. I believe the
+benefits outweigh any drawbacks here for a few reasons;
+ 1. Saves bandwidth if you don't want the entire collection.
+ 2. Reduces build time if you don't want the entire collection.
+ 3. Reduces the size of the output package if you don't want the
+ 	entire collection.
+There is no need for any options to add the different "packs", just have
+the ones you want in the SlackBuilds directory and the SlackBuild will
+know what to do.
+
+* Options:
+Added 3 options; LILO, MATE and XFCE.
+LILO=yes will include background images for LILO.
+	These are installed to /boot/images.
+MATE=yes will add symlinks for the MATE DE
+XFCE=yes will add symlinks for the XFCE DE
+
+* LiLo addition:
+If you choose to install the LiLo backgrounds, each one has a .txt
+that accompanies it with the correct settings for bitmap, bmp-colors,
+bmp-table and bmp-timer that need to be set in /etc/lilo.conf.

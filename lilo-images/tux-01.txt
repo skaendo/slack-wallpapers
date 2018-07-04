@@ -1,0 +1,7 @@
+# These are the settings for tux-01.bmp.
+# Edit your lilo.conf to match these.
+
+bitmap=/boot/images/tux-01.bmp
+bmp-colors = 250,,,255,,
+bmp-table = 48,15,1,12
+bmp-timer = 300p,184p,250,,

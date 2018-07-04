@@ -1,0 +1,9 @@
+# Found at: https://www.gnome-look.org/p/1133012/
+#
+# These are the settings for tux-02.bmp.
+# Edit your lilo.conf to match these.
+
+bitmap = /boot/images/tux-02.bmp
+bmp-colors = 255,0,255,0,255,0
+bmp-table = 60,6,1,16
+bmp-timer = 65,27,0,255

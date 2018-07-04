@@ -1,0 +1,9 @@
+# Found at: https://www.gnome-look.org/p/1113023/
+#
+# These are the settings for hood.bmp.
+# Edit your lilo.conf to match these.
+
+bitmap = /boot/images/england.bmp
+bmp-colors = 0,1,0,1,0,1
+bmp-table = 10,12,1,16
+bmp-timer = 65,27,0,1

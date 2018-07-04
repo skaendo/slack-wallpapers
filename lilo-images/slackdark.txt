@@ -1,0 +1,10 @@
+# The slackdark.bmp is courtesy of
+# Dagmar d'Surreal <`echo qntzne@fcrnxrnfl.arg | rot13`>
+#
+# These are the settings for slackdark.bmp.
+# Edit your lilo.conf to match these.
+
+bitmap = /boot/images/slackdark.bmp
+bmp-colors = 3,0,,5,10,0
+bmp-table = 54,22,1,8,18
+bmp-timer = 70,27,0,15

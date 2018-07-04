@@ -1,0 +1,23 @@
+# http://insyte.atspace.com/lilo.html#graphical
+
+# These are the settings for moonboot.bmp.
+# Edit your lilo.conf to match these.
+
+bitmap = /boot/images/moonboot.bmp
+bmp-colors = 139,,0,255,,0
+bmp-table = 40p,384p,1,5
+bmp-timer = 513p,30p,255,0,0
+
+# If you have issues with those settings try these;
+
+bitmap = /boot/images/moonboot.bmp
+bmp-colors=9,,0,13,,0
+bmp-table=40p,384p,1,2
+bmp-timer=5p,3p,5,0,0
+
+# And if those give you issues, try;
+
+bitmap = /boot/images/moonboot.bmp
+bmp-colors = 255,0,255,0,255,0
+bmp-table = 40p,384p,1,2
+bmp-timer = 513p,30p,255,0,0

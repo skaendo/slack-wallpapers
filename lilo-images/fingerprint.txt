@@ -1,0 +1,9 @@
+# Found at: https://www.gnome-look.org/p/1115795/
+#
+# These are the settings for fingerprint.bmp.
+# Edit your lilo.conf to match these.
+
+bitmap = /boot/images/fingerprint.bmp
+bmp-colors = 5,,239,239,,5
+bmp-table = 128p,313p,1,3
+bmp-timer = none

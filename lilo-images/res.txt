@@ -1,0 +1,9 @@
+# Found at: https://www.gnome-look.org/p/1113959/
+#
+# These are the settings for res.bmp.
+# Edit your lilo.conf to match these.
+
+bitmap = /boot/images/res.bmp
+bmp-colors = 255,0,255,0,255,0
+bmp-table = 55,8,1,16
+bmp-timer = 65,27,0,255

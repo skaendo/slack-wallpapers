@@ -1,0 +1,10 @@
+# The verde.bmp is courtesy of
+# Dagmar d'Surreal <`echo qntzne@fcrnxrnfl.arg | rot13`>
+#
+# These are the settings for verde.bmp.
+# Edit your lilo.conf to match these.
+
+bitmap = /boot/images/verde.bmp
+bmp-colors = 13,3,,3,13,
+bmp-table = 34,12,1,8,18
+bmp-timer = 38,22,13,3,5

@@ -1,0 +1,12 @@
+# The leia.bmp is copyright Elizabeth Krumbach Joseph 
+# (http://www.princessleia.com/liloSplash.php) and released
+# as CC BY-SA: (https://creativecommons.org/licenses/by-sa/4.0/)
+# No changes were made except for renaming the image to leia.bmp.
+#
+# These are the settings for leia.bmp.
+# Edit your lilo.conf to match these.
+
+bitmap=/boot/images/leia.bmp
+bmp-colors = 0,,4,15,,4
+bmp-table = 90p,145p,1,15,17
+bmp-timer = 50p,450p,15,6,4

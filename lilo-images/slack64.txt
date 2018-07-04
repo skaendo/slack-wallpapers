@@ -1,0 +1,6 @@
+# Found at: https://www.gnome-look.org/p/1114180/
+
+bitmap = /boot/slack.bmp
+bmp-colors = 255,0,255,0,255,0
+bmp-table = 60,6,1,16
+bmp-timer = 65,27,0,255

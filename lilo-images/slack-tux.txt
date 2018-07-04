@@ -1,0 +1,7 @@
+# These are the settings for slack-tux.bmp.
+# Edit your lilo.conf to match these.
+
+bitmap = /boot/images/slack-tux.bmp
+bmp-colors = 0,255,127,255,0,0
+bmp-table = 120p,170p,1,15,17
+bmp-timer = 255p,431p,255,0,0
