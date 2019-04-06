@@ -1,0 +1,7 @@
+# These are the settings for hood.bmp.
+# Edit your lilo.conf to match these.
+
+bitmap = /boot/images/ambigram_white.bmp
+bmp-colors = 255,0,255,0,255,0
+bmp-table = 60,6,1,16
+bmp-timer = 65,27,0,255
